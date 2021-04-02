@@ -28,7 +28,7 @@
 	const volumeSlider = document.querySelector('.volume');
 	const audioSource = audioCtx.createMediaElementSource(audioElement);
 
-	audioBtn.addEventListener('click', function() {
+	playBtn.addEventListener('click', function() {
 		if (audioCtx.state === 'suspended') {
 			audioCtx.resume();
 		}
